@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-url: "https://hanaedonnelly.github.io/Band-Theme"
-baseurl: ""
+url: "https://hanaedonnelly.github.io"
+baseurl: "Band-Theme"
 
 # THEME-SPECIFIC CONFIGURATION
 title: My Band
