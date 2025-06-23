@@ -51,6 +51,7 @@ html, html[data-theme="light"] {
   --table-row-odd: #ffffff;
   --table-head-bg: #c92a94;
   --text-inverse: #ffffff; /* For dark text on light backgrounds */
+  --text-shadow: rgba(0, 0, 0, 0.3);
 }
 
 html[data-theme="dark"] {
@@ -74,8 +75,8 @@ html[data-theme="dark"] {
   --table-row-even: #2c2c2c;
   --table-row-odd: #1f1f1f;
   --table-head-bg: #ff66c2;
-
   --text-inverse: #000000; /* For light text on dark backgrounds */
+  --text-shadow: rgba(0, 0, 0, 0.3);
 }
 
 /* BASE16 CODE HIGHLIGHT */
