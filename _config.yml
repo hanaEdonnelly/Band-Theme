@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-url: ""
-baseurl: ""
+url: "https://hanaedonnelly.github.io"
+baseurl: "/Band-Theme"
 
 # THEME-SPECIFIC CONFIGURATION
 title: My Band
@@ -48,9 +48,6 @@ collections:
   shows: 
     output: true
     permalink: /shows/:name
-  roster:
-    output: true 
-    permalink: /roster/:title/
 
 # BUILD SETTINGS
 sass:
