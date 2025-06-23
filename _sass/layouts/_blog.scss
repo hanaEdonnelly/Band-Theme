@@ -8,8 +8,18 @@
   text-align: center;
   color: var(--header-text);
   background: no-repeat var(--header-background);
-  backdrop-filter: brightness(0.75);
+  backdrop-filter: brightness(0.5);
   background-size: cover;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--link);
+    opacity: 0.3; // Adjust for tint intensity
+    pointer-events: none;
+    z-index: 0;
+  }
 
   h1 {
     font-family: $font-family-logo;
