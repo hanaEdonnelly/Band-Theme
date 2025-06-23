@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-url: "https://hanaedonnelly.github.io"
-baseurl: "/Band-Theme"
+url: "https://hanaedonnelly.github.io/Band-Theme"
+baseurl: ""
 
 # THEME-SPECIFIC CONFIGURATION
 title: My Band
@@ -10,7 +10,7 @@ favicon: #"assets/favicon.png"
 
 # Header and footer text
 header_text: "My Band"
-header_feature_image: null
+header_feature_image: "assets/img/feature-img/stage.jpg"
 header_feature_image_responsive: true
 footer_text: 
   Created by <a href='https://hana.gallery'>Hana Donnelly</a> with <a href='https://github.com/sylhare/Type-on-Strap'>Type on Strap</a>
